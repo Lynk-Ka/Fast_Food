@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./assets/images/logo - Copy.png' rel='shortcut icon' type='image/png'/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> 
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+
+    
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">   
+     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">
+     
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+
+    <title>Đăng kí tài khoản</title>
+</head>
+<body>
+    <div class="wrapper ">
+        <button class="scroll " ><i class="fas fa-arrow-up"></i></button>
+        <header class="header">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-3">
+                        <div class="header__logo">
+                            <a href="./index.html" class="header__logo-link">
+                                <img src="./assets/images/logo.png" alt="" class="header__logo-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-9">
+                        <div class="header__contact-container">
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">open:</span>
+                                    <span href="#" class="header__contact-in4">8 AM - 10 PM</span>
+                                </div>
+                            </div>
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">email:</span>
+                                    <a href="#" class="header__contact-in4">linh86768@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">hotline:</span>
+                                    <a href="#" class="header__contact-in4">1900 6868</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-10">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="./index.html" class="nav__item-link ">trang chủ</a></li>
+                            <li class="nav__item"><a href="/gioi-thieu.html" class="nav__item-link">giới thiệu</a></li>
+                            <li class="nav__item"><a href="/san-pham.html" class="nav__item-link">sản phẩm</a></li>
+                            <li class="nav__item"><a href="/tin-tuc.html" class="nav__item-link">tin tức</a></li>
+                            <li class="nav__item"><a href="#" class="nav__item-link active">tài khoản</a></li>
+    
+                        </ul>
+                    </div>
+                    <div class="col l-2">
+                        <div class="nav-icon">
+                            <div class="nav__search">
+                                <i class="fas fa-search nav__search-icon"></i>
+                                <form action="" class="nav__search-form">
+                                    <input class="nav__search-input" type="text" placeholder="Gõ tìm kiếm..." required>
+                                    <button type="submit" class="nav__search-submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="nav__cart">
+                                <a href="/giohang.html" class="nav__cart-link">
+                                    <i class="fas fa-shopping-basket nav__cart-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="theme-background">
+            <div class="theme-title">Đăng ký tài khoản</div>
+        </div>
+
+        <div class="main">
+            <section class="frag">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <ul class="frag__container">
+                                <li class="home">
+                                    <a href="/index.html" class="frag__link"> Trang chủ</a>
+                                    <span class="gach">/</span>
+                                </li>
+                                <li>
+                                    <span> Đăng kí tài khoản</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6">
+                        <form action="" method="POST" class="form" id="form-1">
+                          <h3 class="heading">Đăng ký tài khoản</h3>
+                          <p class="desc">Vui lòng đăng ký vào form bên dưới ❤️</p>
+                      
+                          <div class="spacer"></div>
+                      
+                          <div class="form-group">
+                            <label for="fullname" class="form-label">Tên đầy đủ</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="VD: Linh Ka" class="form-control">
+                            <span class="form-message"></span>
+                          </div>
+                      
+                          <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                            <span class="form-message"></span>
+                          </div>
+                      
+                          <div class="form-group">
+                            <label for="password" class="form-label">Mật khẩu</label>
+                            <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                            <span class="form-message"></span>
+                          </div>
+                      
+                          <div class="form-group">
+                            <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                            <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                            <span class="form-message"></span>
+                          </div>
+                      
+                          <button class="form-submit">Đăng ký</button>
+                          <span class="form-transfer" onclick="transfer()">Đăng nhập</span>
+                        </form>
+                        <form action="" method="POST" class="form" id="form-2">
+                                <h3 class="heading">Đăng nhập</h3>
+                                <p class="desc">Vui lòng đăng nhập vào form bên dưới ❤️</p>
+                        
+                                <div class="spacer"></div>
+                        
+                                <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                                <span class="form-message"></span>
+                                </div>
+                        
+                                <div class="form-group">
+                                <label for="password" class="form-label">Mật khẩu</label>
+                                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                                <span class="form-message"></span>
+                                </div>
+                        
+                                <button class="form-submit">Đăng nhập</button>
+                                <span class="form-transfer" onclick="transfer2()">Đăng ký</span>
+                            </form>
+                    </div>
+                    <div class="col l-6">
+                        <div class="login-banner">
+                            <img src="./assets/images/login1.jpg" alt="" class="login-img">
+                            <div class="login-banner__text">
+                                <span>Đón mừng giáng sinh</span>
+                                <span>Ding ngay quà khủng</span>
+                            </div>
+                            <div class="login-sale">
+                                <span>-50%</span>
+                            </div>
+                            <span class="login-border1"></span>
+                            <span class="login-border2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+        <footer class="footer">
+            <div class="top-footer">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-9">
+                            <div class="row">
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">về chúng tôi</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">điều khoản</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">hướng dẫn</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">chính sách</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="footer__login">
+                                <div class="footer__wrapper-tiltle">đăng kí nhận tin</div>
+                                <div class="footer__login-content"> Đăng ký nhận thông tin ưu đãi cùng với khuyến mãi khủng từ Moc Food</div>
+                                <div class="footer__login-search">
+                                    <form action="" class="footer__login-form">
+                                        <input type="email" class="footer__login-input" placeholder="Email của bạn" required>
+                                        <button type="submit" class="footer__login-btn">
+                                            <i class="fas fa-paper-plane"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="footer__social">
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-twitter"></i>
+                                     </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid-footer">
+                <div class="grid wide">
+                    <div class="col l-12">
+                        <h1 class="mid-footer__name">cửa hàng đồ ăn nhanh Moc Food</h1>
+                        <div class="mid-footer__address">
+                            <span>Moc Food:</span>
+                            <span>Số 68, Hùng Vương, Phú Thọ, Việt Nam</span>
+                        </div>
+                        <div class="mid-footer__contact">
+                            <span>Hotline: <a href="#"> 1900 6868</a></span>
+                            <span>Email: <a href="#">Linh86768@gmail.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <i class="far fa-copyright"></i>
+                <p>Copyright by <a href="https://www.facebook.com/linhmoc.99/">Tuan Linh</a></p>
+            </div>
+        </footer>
+
+    </div>
+        <script src="./javascript/scroll-top.js"></script>
+      <script src="./javascript/validator.js"></script>
+      <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+          // Mong muốn của chúng ta
+          Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+              Validator.isRequired('#fullname', 'Vui lòng nhập tên đầy đủ của bạn'),
+              Validator.isEmail('#email'),
+              Validator.minLength('#password', 6),
+              Validator.isRequired('#password_confirmation'),
+              Validator.isConfirmed('#password_confirmation', function () {
+                return document.querySelector('#form-1 #password').value;
+              }, 'Mật khẩu nhập lại không chính xác')
+            ],
+            onSubmit: function (data) {
+              // Call API
+              console.log(data);
+            }
+          });
+  
+  
+          Validator({
+            form: '#form-2',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+              Validator.isEmail('#email'),
+              Validator.minLength('#password', 6),
+            ],
+            onSubmit: function (data) {
+              // Call API
+              console.log(data);
+            }
+          });
+        });
+        
+        const form1 = document.getElementById('form-1')
+        const form2 = document.getElementById('form-2')
+        function transfer() {
+            form1.style.display = 'none'
+            form2.style.display = 'block'
+        }
+        function transfer2() {
+            form1.style.display = 'block'
+            form2.style.display = 'none'
+        }
+      </script>
+   
+</body>
+</html>

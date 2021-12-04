@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./assets/images/logo - Copy.png' rel='shortcut icon' type='image/png'/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> 
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+
+    
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">   
+     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+
+    <title>Fast Food</title>
+</head>
+<body>
+    <div class="wrapper ">
+        <button class="scroll " ><i class="fas fa-arrow-up"></i></button>
+        <header class="header">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-4">
+                        <div class="header__logo">
+                            <a href="./index.html" class="header__logo-link">
+                                <img src="./assets/images/logo.png" alt="" class="header__logo-img">
+                            </a>
+                            <span class="header__logo-text"> </span>
+                        </div>
+                    </div>
+                    <div class="col l-8">
+                        <div class="header__contact-container">
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">open:</span>
+                                    <span href="#" class="header__contact-in4">8 AM - 10 PM</span>
+                                </div>
+                            </div>
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">email:</span>
+                                    <a href="#" class="header__contact-in4">linh86768@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">hotline:</span>
+                                    <a href="#" class="header__contact-in4">1900 6868</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-10">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__item-link active">trang chủ</a></li>
+                            <li class="nav__item"><a href="/gioi-thieu.html" class="nav__item-link">giới thiệu</a></li>
+                            <li class="nav__item"><a href="/san-pham.html" class="nav__item-link">sản phẩm</a></li>
+                            <li class="nav__item"><a href="/tin-tuc.html" class="nav__item-link">tin tức</a></li>
+                            <li class="nav__item"><a href="/login.html" class="nav__item-link">tài khoản</a></li>
+    
+                        </ul>
+                    </div>
+                    <div class="col l-2">
+                        <div class="nav-icon">
+                            <div class="nav__search">
+                                <i class="fas fa-search nav__search-icon"></i>
+                                <form action="" class="nav__search-form">
+                                    <input class="nav__search-input" type="text" placeholder="Gõ tìm kiếm..." required>
+                                    <button type="submit" class="nav__search-submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="nav__cart">
+                                <a href="/giohang.html" class="nav__cart-link">
+                                    <i class="fas fa-shopping-basket nav__cart-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- SLIDER -->
+        <div class="swiper-container">
+            <div class="grid">
+                <div class="row no-gutters">
+                    <div class="col l-12">
+                        <div class="swiper mySwiper1">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="./assets/images/slider1.jpg" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/images/slider2.jpg" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/images/slider3.jpg" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/images/slider5.jpg" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/images/slider4.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="swiper-button-next1"></div>
+                            <div class="swiper-button-prev1"></div>
+                            <div class="swiper-pagination"></div>
+                    
+                            <div class="slider__text">
+                                <span class="slider__heading">Moc Restaurant</span>
+                                <span class="slider__description">Hệ thống ăn uống và giải trí hàng đầu tại Việt Nam với hơn 200 cửa hàng lớn nhỏ trên cả 3 miền 
+                                    nhằm mang đến sự phục vụ tốt nhất dành cho bạn và cả gia đình!</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <section class="banner">
+            <div class="grid wide">
+                <div class="row  ">
+                    <div class="col l-4" data-aos="fade-right">
+                        <div class="banner__item " >
+                            <a class="banner__link" href="#">
+                                <img src="./assets/images/banner1.jpg" alt="" class="banner-img">
+                            </a>
+                            <div class="banner__text banner__text-1">
+                                <span class="banner__text-engname">American <p>Pigga</p></span>
+                                <p class="banner__text-vietname">pizza bò xào</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-8" data-aos="fade-left">
+                        <div class="banner__item" > 
+                            <a class="banner__link" href="#">
+                                <img src="./assets/images/banner2.jpg" alt="" class="banner-img">
+                            </a>
+                            <div class="banner__text mg-l">
+                                <span class="banner__text-engname">Asian<p class="banner__text-engname-p">Bread</p></span>
+                                <p class="banner__text-vietname">Bánh mì hảo hạng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="body">
+            <div class="grid wide">
+                <div class="row ">
+                    <div class="col l-3">
+                        <div class="category">
+                            <div class="category__colection">
+                                <h2 class="colection__title">
+                                    <span class="colection__title-head">danh mục sản phẩm</span>
+                                </h2>
+                                <div class="colection__content">
+                                    <ul class="colection__content-list">
+                                        <li class="colection__content-item">
+                                            <a href="#" class="colection__content-link">Sản phẩm mới</a>
+                                        </li>
+                                        <li class="colection__content-item">
+                                            <a href="#" class="colection__content-link">Sản phẩm nổi bật</a>
+                                        </li>
+                                        <li class="colection__content-item">
+                                            <a href="#" class="colection__content-link">Pizza</a>
+                                        </li>
+                                        <li class="colection__content-item">
+                                            <a href="#" class="colection__content-link">Bánh ngọt</a>
+                                        </li>
+                                        <li class="colection__content-item">
+                                            <a href="#" class="colection__content-link">Bánh kem</a>
+                                        </li>
+                                        <li class="colection__content-item">
+                                            <a href="#" class="colection__content-link">Dồ ăn nhẹ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="category__selling">
+                                <div class="colection__title">
+                                    <h2 class="colection__title-head">sản phẩm bán chạy</h2>
+                                </div>
+                                <div class="selling__product">
+                                    <div class="selling__product-box">
+                                        <div class="selling__product-image">
+                                            <a href="/san-pham-spaghetti.html" class="selling__product-link">
+                                                <img src="./assets/images/product1.jpg" alt="" class="selling__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="selling__product-content">
+                                            <a href="/san-pham-spaghetti.html"class="selling__product-title">Spaghetti Bolognaise</a>
+                                            <div class="selling__product-price-box">
+                                                <span class="selling__product-price">340.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="selling__product-box">
+                                        <div class="selling__product-image">
+                                            <a href="/san-pham-salad-bobittet.html" class="selling__product-link">
+                                                <img src="./assets/images/product2.jpg" alt="" class="selling__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="selling__product-content">
+                                            <a href="/san-pham-salad-bobittet.html"class="selling__product-title">Salad bò bíp-tết</a>
+                                            <div class="selling__product-price-box">
+                                                <span class="selling__product-price">234.000đ</span>
+                                                <span class="selling__product-price-sale">267.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="selling__product-box">
+                                        <div class="selling__product-image">
+                                            <a href="/san-pham-pizza-haisan.html" class="selling__product-link">
+                                                <img src="./assets/images/product3.jpg" alt="" class="selling__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="selling__product-content">
+                                            <a href="/san-pham-pizza-haisan.html"class="selling__product-title">Pizza hải sản xúc xích</a>
+                                            <div class="selling__product-price-box">
+                                                <span class="selling__product-price">220.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="selling__product-box">
+                                        <div class="selling__product-image">
+                                            <a href="/san-pham-banh-Torrija.html" class="selling__product-link">
+                                                <img src="./assets/images/product4.jpg" alt="" class="selling__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="selling__product-content">
+                                            <a href="/san-pham-banh-Torrija.html"class="selling__product-title">Bánh Torrija</a>
+                                            <div class="selling__product-price-box">
+                                                <span class="selling__product-price">50.000đ</span>
+                                                <span class="selling__product-price-sale">60.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-9">
+                        <div class="row ">
+                            <div class="col l-12">
+                                <div class="main-product">
+
+                                    <div class="colection__title no-bottom">
+                                        <h2 class="colection__title-head product--left" >sản phẩm nổi bật</h2>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-spaghetti.html" class="product__preview-link">
+                                                            <img src="./assets/images/product1.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">340.000đ</span>
+                                                            <span class="product__price-sale"></span>
+                                                        </div>
+                                                        <a href="/san-pham-spaghetti.html"class="product__name">Spaghetti Bolognaise</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-salad-bobittet.html" class="product__preview-link">
+                                                            <img src="./assets/images/product2.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">234.000đ</span>
+                                                            <span class="product__price-sale">267.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-salad-bobittet.html"class="product__name"> Salad bò bíp-tết</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-pizza-haisan.html" class="product__preview-link">
+                                                            <img src="./assets/images/product3.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">220.000đ</span>
+                                                            <span class="product__price-sale"></span>
+                                                        </div>
+                                                        <a href="/san-pham-pizza-haisan.html"class="product__name">Pizza hải sản xúc xích</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-banh-Torrija.html" class="product__preview-link">
+                                                            <img src="./assets/images/product4.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">50.000đ</span>
+                                                            <span class="product__price-sale">60000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-banh-Torrija.html"class="product__name"> Bánh Torrija</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-banh-tao-nuong.html" class="product__preview-link">
+                                                            <img src="./assets/images/product6.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">90.000đ</span>
+                                                            <span class="product__price-sale">100.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-banh-tao-nuong.html"class="product__name">Bánh Táo nướng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-cheese-burger.html" class="product__preview-link">
+                                                            <img src="./assets/images/product5.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">180.000đ</span>
+                                                            <span class="product__price-sale">220.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-cheese-burger.html"class="product__name">Cheese Burger (Beef)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-banhSocola-tan-chay.html" class="product__preview-link">
+                                                            <img src="./assets/images/product7.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">150.000đ</span>
+                                                            <span class="product__price-sale"></span>
+                                                        </div>
+                                                        <a href="/san-pham-banhSocola-tan-chay.html"class="product__name">Bánh Socola tan chảy & kem</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-com-rang-trung-cuon.html" class="product__preview-link">
+                                                            <img src="./assets/images/product8.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">120.000đ</span>
+                                                            <span class="product__price-sale">150.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-com-rang-trung-cuon.html"class="product__name">Cơm Rang trứng cuộn</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-salad-bo-my.html" class="product__preview-link">
+                                                            <img src="./assets/images/product9.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">160.000đ</span>
+                                                            <span class="product__price-sale">200.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-salad-bo-my.html"class="product__name">Salad Bò Mỹ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-banh-my-botoi.html" class="product__preview-link">
+                                                            <img src="./assets/images/product10.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">70.000đ</span>
+                                                            <span class="product__price-sale"></span>
+                                                        </div>
+                                                        <a href="/san-pham-banh-my-botoi.html"class="product__name">Bánh mì bơ tỏi</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>                                                     
+                                               
+                            <div class="col l-12">
+                                <div class="sale-banner" data-aos="fade-up">
+                                    <div class="sale-banner__item">
+                                        <img src="./assets/images/sale-banner.jpg" alt="" class="sale-banner__img">
+                                        <div class="sale-banner__text">
+                                            <span class="sale-banner__title">Best sale of</span>
+                                            <span class="sale-banner__des">Giảm 50% tất cả các mặt hàng</span>
+                                        </div>
+                                        <span class="sale-banner__percent">
+                                            <span>-50%</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-12">
+                                <div class="colection__title no-bottom">
+                                    <h2 class="colection__title-head product--left" >sản phẩm mới</h2>
+                                </div>
+                                <div class="new-product">
+                                    <div class="row">
+                                        <div class="col l-12">
+                                            <div class="swiper mySwiper2">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <div class="product">
+                                                            <div class="product__preview">
+                                                                <a href="/san-pham-banh-tao-nuong.html" class="product__preview-link">
+                                                                    <img src="./assets/images/product6.jpg" alt="" class="product__preview-img">
+                                                                </a>
+                                                                <div class="product__preview-buybox">
+                                        
+                                                                </div>
+                                                            </div>
+                                                            <div class="product__infor">
+                                                                <div class="product__price">
+                                                                    <span class="product__price-main">90.000đ</span>
+                                                                    <span class="product__price-sale">100.000đ</span>
+                                                                </div>
+                                                                <a href="/san-pham-banh-tao-nuong.html"class="product__name">Bánh Táo nướng</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="product">
+                                                            <div class="product__preview">
+                                                                <a href="/san-pham-cheese-burger.html" class="product__preview-link">
+                                                                    <img src="./assets/images/product5.jpg" alt="" class="product__preview-img">
+                                                                </a>
+                                                                <div class="product__preview-buybox">
+                                        
+                                                                </div>
+                                                            </div>
+                                                            <div class="product__infor">
+                                                                <div class="product__price">
+                                                                    <span class="product__price-main">180.000đ</span>
+                                                                    <span class="product__price-sale">220.000đ</span>
+                                                                </div>
+                                                                <a href="/san-pham-cheese-burger.html"class="product__name">Cheese Burger (Beef)</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="product">
+                                                            <div class="product__preview">
+                                                                <a href="/san-pham-banhSocola-tan-chay.html" class="product__preview-link">
+                                                                    <img src="./assets/images/product7.jpg" alt="" class="product__preview-img">
+                                                                </a>
+                                                                <div class="product__preview-buybox">
+                                        
+                                                                </div>
+                                                            </div>
+                                                            <div class="product__infor">
+                                                                <div class="product__price">
+                                                                    <span class="product__price-main">150.000đ</span>
+                                                                    <span class="product__price-sale"></span>
+                                                                </div>
+                                                                <a href="/san-pham-banhSocola-tan-chay.html"class="product__name">Bánh Socola tan chảy & kem</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="product">
+                                                            <div class="product__preview">
+                                                                <a href="/san-pham-com-rang-trung-cuon.html" class="product__preview-link">
+                                                                    <img src="./assets/images/product8.jpg" alt="" class="product__preview-img">
+                                                                </a>
+                                                                <div class="product__preview-buybox">
+                                        
+                                                                </div>
+                                                            </div>
+                                                            <div class="product__infor">
+                                                                <div class="product__price">
+                                                                    <span class="product__price-main">120.000đ</span>
+                                                                    <span class="product__price-sale">150.000đ</span>
+                                                                </div>
+                                                                <a href="/san-pham-com-rang-trung-cuon.html"class="product__name">Cơm Rang trứng cuộn</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="product">
+                                                            <div class="product__preview">
+                                                                <a href="/san-pham-salad-bo-my.html" class="product__preview-link">
+                                                                    <img src="./assets/images/product9.jpg" alt="" class="product__preview-img">
+                                                                </a>
+                                                                <div class="product__preview-buybox">
+                                        
+                                                                </div>
+                                                            </div>
+                                                            <div class="product__infor">
+                                                                <div class="product__price">
+                                                                    <span class="product__price-main">160.000đ</span>
+                                                                    <span class="product__price-sale">200.000đ</span>
+                                                                </div>
+                                                                <a href="/san-pham-salad-bo-my.html"class="product__name">Salad Bò Mỹ</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                          
+                                                    <div class="swiper-slide">
+                                                        <div class="product">
+                                                            <div class="product__preview">
+                                                                <a href="#" class="product__preview-link">
+                                                                    <img src="./assets/images/product2.jpg" alt="" class="product__preview-img">
+                                                                </a>
+                                                                <div class="product__preview-buybox">
+                                        
+                                                                </div>
+                                                            </div>
+                                                            <div class="product__infor">
+                                                                <div class="product__price">
+                                                                    <span class="product__price-main">234.000đ</span>
+                                                                    <span class="product__price-sale">267.000đ</span>
+                                                                </div>
+                                                                <a href="/san-pham-salad-bobittet.html"class="product__name"> Salad bò bíp-tết</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="product">
+                                                            <div class="product__preview">
+                                                                <a href="#" class="product__preview-link">
+                                                                    <img src="./assets/images/product3.jpg" alt="" class="product__preview-img">
+                                                                </a>
+                                                                <div class="product__preview-buybox">
+                                        
+                                                                </div>
+                                                            </div>
+                                                            <div class="product__infor">
+                                                                <div class="product__price">
+                                                                    <span class="product__price-main">220.000đ</span>
+                                                                    <span class="product__price-sale"></span>
+                                                                </div>
+                                                                <a href="/san-pham-pizza-haisan.html"class="product__name">Pizza hải sản xúc xích</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-6">
+                                <div class="sale-banner" data-aos="fade-left">
+                                    <div class="sale-banner__item">
+                                        <img src="./assets/images/sale-banner2.jpg" alt="" class="sale-banner__img">
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="col l-6">
+                                <div class="sale-banner" data-aos="fade-right">
+                                    <div class="sale-banner__item">
+                                        <img src="./assets/images/sale-banner3.jpg" alt="" class="sale-banner__img">
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="col l-12">
+                                <div class="week-product">
+
+                                    <div class="colection__title no-bottom">
+                                        <h2 class="colection__title-head product--left" >bán chạy trong tuần</h2>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper mySwiper3">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="#" class="product__preview-link">
+                                                            <img src="./assets/images/product1.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">340.000đ</span>
+                                                            <span class="product__price-sale"></span>
+                                                        </div>
+                                                        <a href="/san-pham-spaghetti.html"class="product__name">Spaghetti Bolognaise</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="#" class="product__preview-link">
+                                                            <img src="./assets/images/product2.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">234.000đ</span>
+                                                            <span class="product__price-sale">267.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-salad-bobittet.html"class="product__name"> Salad bò bíp-tết</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-pizza-haisan.html" class="product__preview-link">
+                                                            <img src="./assets/images/product3.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">220.000đ</span>
+                                                            <span class="product__price-sale"></span>
+                                                        </div>
+                                                        <a href="/san-pham-pizza-haisan.html"class="product__name">Pizza hải sản xúc xích</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-banh-Torrija.html" class="product__preview-link">
+                                                            <img src="./assets/images/product4.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">50.000đ</span>
+                                                            <span class="product__price-sale">60.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-banh-Torrija.html"class="product__name"> Bánh Torrija</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-banh-tao-nuong.html" class="product__preview-link">
+                                                            <img src="./assets/images/product6.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">90.000đ</span>
+                                                            <span class="product__price-sale">100.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-banh-tao-nuong.html"class="product__name">Bánh Táo nướng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-cheese-burger.html" class="product__preview-link">
+                                                            <img src="./assets/images/product5.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">180.000đ</span>
+                                                            <span class="product__price-sale">220.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-cheese-burger.html"class="product__name">Cheese Burger (Beef)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-com-rang-trung-cuon.html" class="product__preview-link">
+                                                            <img src="./assets/images/product8.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">120.000đ</span>
+                                                            <span class="product__price-sale">150.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-com-rang-trung-cuon.html"class="product__name">Cơm Rang trứng cuộn</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product">
+                                                    <div class="product__preview">
+                                                        <a href="/san-pham-salad-bo-my.html" class="product__preview-link">
+                                                            <img src="./assets/images/product9.jpg" alt="" class="product__preview-img">
+                                                        </a>
+                                                        <div class="product__preview-buybox">
+                                
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__infor">
+                                                        <div class="product__price">
+                                                            <span class="product__price-main">160.000đ</span>
+                                                            <span class="product__price-sale">200.000đ</span>
+                                                        </div>
+                                                        <a href="/san-pham-salad-bo-my.html"class="product__name">Salad Bò Mỹ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="top-footer">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-9">
+                            <div class="row">
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">về chúng tôi</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">điều khoản</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">hướng dẫn</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">chính sách</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="footer__login">
+                                <div class="footer__wrapper-tiltle">đăng kí nhận tin</div>
+                                <div class="footer__login-content"> Đăng ký nhận thông tin ưu đãi cùng với khuyến mãi khủng từ Moc Food</div>
+                                <div class="footer__login-search">
+                                    <form action="" class="footer__login-form">
+                                        <input type="email" class="footer__login-input" placeholder="Email của bạn" required>
+                                        <button type="submit" class="footer__login-btn">
+                                            <i class="fas fa-paper-plane"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="footer__social">
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-twitter"></i>
+                                     </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid-footer">
+                <div class="grid wide">
+                    <div class="col l-12">
+                        <h1 class="mid-footer__name">cửa hàng đồ ăn nhanh Moc Food</h1>
+                        <div class="mid-footer__address">
+                            <span>Moc Food:</span>
+                            <span>Số 68, Hùng Vương, Phú Thọ, Việt Nam</span>
+                        </div>
+                        <div class="mid-footer__contact">
+                            <span>Hotline: <a href="#"> 1900 6868</a></span>
+                            <span>Email: <a href="#">Linh86768@gmail.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <i class="far fa-copyright"></i>
+                <p>Copyright by <a href="https://www.facebook.com/linhmoc.99/">Tuan Linh</a></p>
+            </div>
+        </footer>
+
+    </div>
+  
+
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     
+      <!-- <script src="./javascript/main.js"> </script> -->
+      <script src="./javascript/swiper.js"></script>
+      <script src="./javascript/scroll-top.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+          var typed = new Typed(".header__logo-text",{
+              strings: ["","Welcome to MocFood","I'm Tuan Linh", "Enjoy your meal !"],
+              typeSpeed:60,
+              backSpeed:60,
+              loop:true
+          });
+      </script>
+
+    
+</body>
+</html>

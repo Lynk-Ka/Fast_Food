@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./assets/images/logo - Copy.png' rel='shortcut icon' type='image/png'/>
+   
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/tin-tuc.css">
+
+    
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">
+     
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+
+
+    <title>Tin tức</title>
+</head>
+<body>
+    <div class="wrapper ">
+        <button class="scroll " ><i class="fas fa-arrow-up"></i></button>
+        <header class="header">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-3">
+                        <div class="header__logo">
+                            <a href="./index.html" class="header__logo-link">
+                                <img src="./assets/images/logo.png" alt="" class="header__logo-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-9">
+                        <div class="header__contact-container">
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">open:</span>
+                                    <span href="#" class="header__contact-in4">8 AM - 10 PM</span>
+                                </div>
+                            </div>
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">email:</span>
+                                    <a href="#" class="header__contact-in4">linh86768@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="header__contact">
+                                <div class="header__contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="header__contact-content">
+                                    <span class="header__contact-title">hotline:</span>
+                                    <a href="#" class="header__contact-in4">1900 6868</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-10">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="/index.html" class="nav__item-link ">trang chủ</a></li>
+                            <li class="nav__item"><a href="/gioi-thieu.html" class="nav__item-link">giới thiệu</a></li>
+                            <li class="nav__item"><a href="/san-pham.html" class="nav__item-link">sản phẩm</a></li>
+                            <li class="nav__item"><a href="/tin-tuc.html" class="nav__item-link ">tin tức</a></li>
+                            <li class="nav__item"><a href="./login.html" class="nav__item-link">tài khoản</a></li>
+    
+                        </ul>
+                    </div>
+                    <div class="col l-2">
+                        <div class="nav-icon">
+                            <div class="nav__search">
+                                <i class="fas fa-search nav__search-icon"></i>
+                                <form action="" class="nav__search-form">
+                                    <input class="nav__search-input" type="text" placeholder="Gõ tìm kiếm..." required>
+                                    <button type="submit" class="nav__search-submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="nav__cart">
+                                <a href="/giohang.html" class="nav__cart-link">
+                                    <i class="fas fa-shopping-basket nav__cart-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="theme-background">
+            <div class="theme-title"> Cách làm Hamburger bò siêu nhanh </div>
+        </div>
+
+        <section class="body">
+            <section class="frag">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <ul class="frag__container">
+                                <li class="home">
+                                    <a href="/index.html" class="frag__link"> Trang chủ</a>
+                                    <span class="gach">/</span>
+                                </li>
+                                <li class="home">
+                                    <a href="/tin-tuc.html" class="frag__link"> Tin tức</a>
+                                    <span class="gach">/</span>
+                                </li>
+                                <li>
+                                    <span>Cách làm Hamburger bò siêu nhanh cho bữa sáng</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="blog-category" >
+                            <div class="blog-category__title">
+                                <p>danh mục blog</p>
+                            </div>
+                            <ul class="blog-category__content">
+                                <li class="blog-category__item list">
+                                    <a href="/index.html" class="blog-category__link">Trang chủ</a>
+                                </li>
+                                <li class="blog-category__item list">
+                                    <a href="/gioi-thieu.html" class="blog-category__link">Giới thiệu</a>
+                                </li>
+                                <li class="blog-category__item list">
+                                    <a href="/san-pham.html" class="blog-category__link">Sản phẩm</a>
+                                </li>
+                                <li class="blog-category__item list">
+                                    <a href="#" class="blog-category__link">Khuyến mãi</a>
+                                </li>
+                                <li class="blog-category__item list">
+                                    <a href="#" class="blog-category__link">Tin tức</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="blog-category" >
+                            <div class="blog-category__title">
+                                <p>thẻ tags</p>
+                            </div>
+                            <ul class="blog-category__content">
+                                <li class="blog-category__item blog-category__item--boder">
+                                    <a href="#" class="blog-category__link">Hamburger</a>
+                                </li>
+                                <li class="blog-category__item blog-category__item--boder">
+                                    <a href="#" class="blog-category__link">Bánh ngọt</a>
+                                </li>
+                                <li class="blog-category__item blog-category__item--boder">
+                                    <a href="#" class="blog-category__link">Bánh Pizza</a>
+                                </li>
+                                <li class="blog-category__item blog-category__item--boder">
+                                    <a href="#" class="blog-category__link">Asian Bread</a>
+                                </li>
+                                <li class="blog-category__item blog-category__item--boder">
+                                    <a href="#" class="blog-category__link">Steak</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="blog-category" >
+                            <div class="blog-category__title">
+                                <p>tin tức nổi bật</p>
+                            </div>
+                            <ul class="blog-category__content not-pd">
+                                <li class="blog-category__item ">
+                                    <div class="blog-category__box">
+                                        <a class="blog-category__box-img" href="#">
+                                            <img src="./assets/images/blog1.jpg" alt="">
+                                        </a>
+                                        <a class="blog-category__box-text" href="#">Cách làm Hamburger bò siêu nhanh cho bữa sáng
+                                            </a>
+                                    </div>
+                                </li>
+                                <li class="blog-category__item ">
+                                    <div class="blog-category__box">
+                                        <a class="blog-category__box-img" href="#">
+                                            <img src="./assets/images/blog2.jpg" alt="">
+                                        </a>
+                                        <a class="blog-category__box-text" href="#">Cách làm bánh pizza thơm ngon tại nhà</a>
+                                    </div>
+                                </li>
+                                <li class="blog-category__item ">
+                                    <div class="blog-category__box">
+                                        <a class="blog-category__box-img" href="#">
+                                            <img src="./assets/images/blog3.jpg" alt="">
+                                        </a>
+                                        <a class="blog-category__box-text" href="#">Tận dụng kem bơ làm bánh cà phê ngon tuyệt</a>
+                                    </div>
+                                </li>
+                                <li class="blog-category__item ">
+                                    <div class="blog-category__box">
+                                        <a class="blog-category__box-img" href="#">
+                                            <img src="./assets/images/blog4.jpg" alt="">
+                                        </a>
+                                        <a class="blog-category__box-text" href="#">Không thẻ cưỡng lại với kem ốc quế 3 tầng </a>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-9">
+                        <div class="myblog" >
+                            <div class="myblog__title" style="color: var(--sub-color);text-transform: uppercase;"> 
+                                CÁCH LÀM HAMBURGER BÒ SIÊU NHANH CHO BỮA SÁNG 
+                            </div>
+                            <p class="myblog__title-content">
+                                Hamburger là món ăn nhanh được rất nhiều bạn trẻ yêu thích hiện nay, vậy chúng ta cùng trổ tài với cách làm Hamburger bò tại nhà nào các bạn.
+                            </p>
+                            <p class="myblog__title-content">
+                                Nguyên liệu:
+                            </p>
+                            <p class="myblog__title-content">
+                                - 1 bánh mì tròn
+                            </p>
+                            <p class="myblog__title-content">
+                                - 300g thịt bò xay
+                            </p>
+                            <p class="myblog__title-content">
+                                - 30g bột chiên xù
+                            </p>
+                            <p class="myblog__title-content">
+                                - 1 lát pho mát
+                            </p>
+                            <p class="myblog__title-content">
+                                - 2 khoanh hành tây
+                            </p>
+                            <p class="myblog__title-content">
+                                - 3 khoanh cà chua
+                            </p>
+                            <p class="myblog__title-content">
+                                - 1 quả trứng gà
+                            </p>
+                            <p class="myblog__title-content">
+                                - 2 lá xà lách
+                            </p>
+                            <p class="myblog__title-content">
+                                - Tương cà chua, tương ớt
+                            </p>
+                            <p class="myblog__title-content">
+                                - Gia vị
+                            </p>
+                            <div class="blog__thumnail">
+                                <a href="/tin-tuc-1.html" class="blog__thumnail-link">
+                                    <img src="./assets/images/blog1.jpg" alt="" class="blog__thumnail-img">
+                                </a>                                    
+                            </div>
+                            <div class="myblog__title" style="color: var(--sub-color);font-size: 1.6rem;"> 
+                                Cách làm: 
+                            </div>
+                            <p class="myblog__title-content">
+                                Bước 1: Cho thịt bò xay, bột chiên xù và trừng gà vào bát to, trộn đều cho trứng, thịt, bột quyện vào nhau. Sau đó ướp cùng với 1 thìa nước mắm, 1 thìa đường khoảng 30 phút cho thịt ngấm gia vị.
+                            </p>
+                            <p class="myblog__title-content">
+                                Bước 2: Đặt chảo lên bếp, rồi cho hành tây vào xào qua cho tái để kẹp với bánh mì. Thịt bò ướp xong nặn hình tròn dẹt bằng đường kính bánh mì và cho vào chảo rán vàng 2 mặt, rán nhỏ lửa để thịt bò chín đều.                            </p>
+                            <p class="myblog__title-content">
+                                Bước 3: Khi thịt chín các bạn cắt đôi bánh mì, đặt cà chua đều lên một nửa bánh mì, tiếp đến xếp lần lượt thịt bò, pho mát, hành tây, rau xà lách đã rửa sạch lên, rồi đặt nửa bánh mì còn lại lên. Hamberger bò đã hoàn thành, các bạn dùng bành với tương cà hoặc tương ớt.                            </p>
+                            <p class="myblog__title-content">
+                                Nhìn đã thấy hấp dẫn rồi, bắt tay vào làm thôi các bạn, chúc các bạn thành công.
+                            </p>
+                            <div class="row ">
+                                <div class="col l-9">
+                                    <div class="time-post">
+                                        <span class="time-date">
+                                            <i class="fas fa-calendar"></i>
+                                            24/11/2021
+                                        </span>
+                                        <span class="time-comment">
+                                            <i class="far fa-comment"></i>
+                                            3
+                                        </span>
+                                        <span class="time-tag">
+                                            <i class="fas fa-tag"></i>
+                                            Tags:
+                                            <a href="#" class="time-tag-link">Bánh Pizza</a>,
+                                            <a href="#" class="time-tag-link">Hamberger</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="social">
+                                        <a href="#" class="social-link">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#" class="social-link">
+                                            <i class="fab fa-twitter"></i>
+                                         </a>
+                                        <a href="#" class="social-link">
+                                            <i class="fab fa-google"></i>
+                                        </a>
+                                        <a href="#" class="social-link">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-12">
+                                <div class="comment-title">Bình luận:</div>
+                                <div class="comment-infor">
+                                    <!-- <div class="comment-box">
+                                        <div class="comment-box-avt">
+                                            <img src="./assets/images/logo.png" alt="">
+                                        </div>
+                                        <div class="comment-box-in4">
+                                            <div class="comment-box-heading">link ka</div>
+                                            <div class="comment-box-des">
+                                                sản phẩm này rất tốt
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="comment-form">
+                                    <h5 class="comment-form__title">Viết bình luận của bạn:</h5>
+                                    <input type="text" class="comment-name" placeholder="Họ và Tên" >
+                                    <textarea class="comment-content" rows="6" placeholder="Viết bình luận"></textarea>
+                                    <button  class="comment-form-btn" onclick="commentClick(user.value,commentNode.value)">Gửi bình luận</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="top-footer">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-9">
+                            <div class="row">
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">về chúng tôi</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">điều khoản</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">hướng dẫn</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-3">
+                                    <div class="footer__wrapper">
+                                        <div class="footer__wrapper-tiltle">chính sách</div>
+                                        <ul class="footer__wrapper-list">
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Trang chủ</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Giới thiệu</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Sản phẩm</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Khuyến mãi</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Tin tức</a>
+                                            </li>
+                                            <li class="footer__wrapper-item">
+                                                <a href="#" class="footer__wrapper-link">Lien hệ</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="footer__login">
+                                <div class="footer__wrapper-tiltle">đăng kí nhận tin</div>
+                                <div class="footer__login-content"> Đăng ký nhận thông tin ưu đãi cùng với khuyến mãi khủng từ Moc Food</div>
+                                <div class="footer__login-search">
+                                    <form action="" class="footer__login-form">
+                                        <input type="email" class="footer__login-input" placeholder="Email của bạn" required>
+                                        <button type="submit" class="footer__login-btn">
+                                            <i class="fas fa-paper-plane"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="footer__social">
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-twitter"></i>
+                                     </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-google"></i>
+                                    </a>
+                                    <a href="#" class="footer__social-item">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid-footer">
+                <div class="grid wide">
+                    <div class="col l-12">
+                        <h1 class="mid-footer__name">cửa hàng đồ ăn nhanh Moc Food</h1>
+                        <div class="mid-footer__address">
+                            <span>Moc Food:</span>
+                            <span>Số 68, Hùng Vương, Phú Thọ, Việt Nam</span>
+                        </div>
+                        <div class="mid-footer__contact">
+                            <span>Hotline: <a href="#"> 1900 6868</a></span>
+                            <span>Email: <a href="#">Linh86768@gmail.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <i class="far fa-copyright"></i>
+                <p>Copyright by <a href="https://www.facebook.com/linhmoc.99/">Tuan Linh</a></p>
+            </div>
+        </footer>
+
+    </div>
+  
+
+    <script src="./javascript/scroll-top.js"></script>
+    <script src="./javascript/blog.js"></script>
+    <script>
+        hienthi()
+        const user = document.querySelector('.comment-name')
+        const commentNode = document.querySelector('.comment-content')
+        
+        function commentClick(name,comment){
+            const blogList = layListBlog()
+            const blog = taoBlog(name,comment)
+            blogList.push(blog)
+
+            user.value = ''  
+            commentNode.value = '' 
+
+            luuListBlog(blogList)
+            hienthi()
+        }
+
+        function hienthi1blog(blogItem){    
+            const commentInfor = document.querySelector('.comment-infor')
+            const html = `<div class="comment-box">
+                            <div class="comment-box-avt">
+                                <img src="./assets/images/logo.png" alt="">
+                            </div>
+                            <div class="comment-box-in4">
+                                <div class="comment-box-heading">${blogItem.name}</div>
+                                <div class="comment-box-des">
+                                    ${blogItem.comment}
+                                </div>
+                            </div>
+                            <button class="comment-box-close" onclick="closeBtn(event)">
+                                Xoá bình luận
+                            </button >
+                        </div>`   
+            return html     
+        }
+        
+        function hienthilist(blogList){
+            var htmlTong =''
+            blogList.forEach(blogItem =>{
+                htmlTong += hienthi1blog(blogItem)
+            })
+            return htmlTong
+        }
+
+       
+        function closeBtn(e){           
+            e.target.parentElement.remove()
+        }
+        
+
+        function hienthi() {
+            var blogList = layListBlog()
+            let HTML = hienthilist(blogList)
+            const commentInfor = document.querySelector('.comment-infor')
+            commentInfor.innerHTML = HTML
+        }
+        
+
+        AOS.init();
+    </script>
+    
+</body>
+</html>

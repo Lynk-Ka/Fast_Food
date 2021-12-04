@@ -1,0 +1,18 @@
+.page{
+    min-width: 400px;
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+.page__title{
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 30px 0;
+}
+.page__content{
+    font-size:1.6rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.page__content p{
+    margin-top: 20px;
+}
